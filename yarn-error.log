@@ -1,0 +1,46 @@
+Arguments: 
+  /Users/douglas.silva/.nvm/versions/node/v16.19.1/bin/node /usr/local/bin/yarn add express
+
+PATH: 
+  /usr/local/opt/ruby@3.0/bin:/usr/local/opt/ruby/bin:/usr/local/opt/ruby/bin:/usr/local/opt/openssl/bin:/Users/douglas.silva/Library/Android/sdk/platform-tools:/Users/douglas.silva/Library/Android/sdk/tools:/Users/douglas.silva/.nvm/versions/node/v16.19.1/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/Apple/usr/bin:/Users/douglas.silva/.fig/bin:/Users/douglas.silva/.local/bin:/Users/douglas.silva/.rvm/bin
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.19.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://livelo-domain-repositories-840472296963.d.codeartifact.us-east-1.amazonaws.com/npm/npm-central-livelo/express: Unauthenticated: request did not include an Authorization header. Please provide your credentials.
+      at Request.params.callback [as _callback] (/usr/local/lib/node_modules/yarn/lib/cli.js:67029:18)
+      at Request.self.callback (/usr/local/lib/node_modules/yarn/lib/cli.js:140883:22)
+      at Request.emit (node:events:513:28)
+      at Request.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:141855:10)
+      at Request.emit (node:events:513:28)
+      at Gunzip.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:141777:12)
+      at Object.onceWrapper (node:events:627:28)
+      at Gunzip.emit (node:events:513:28)
+      at endReadableNT (node:internal/streams/readable:1358:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "ms-nodejs",
+    "version": "1.0.0",
+    "description": "API desenvolvida para exemplos em ala",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Douglas Franklin",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
