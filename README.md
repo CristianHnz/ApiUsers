@@ -1,6 +1,6 @@
 # Desenvolvimento de uma API NodeJS com Banco MongoDB
 
-## Exemplo de código utilizado em Aula
+## A API pode ser Utilizada da mesma maneira como nos foi apresentado em aula.
 
 ## Libs utilizadas
 - Express
